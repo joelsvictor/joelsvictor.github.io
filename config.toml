@@ -1,4 +1,4 @@
-baseURL = 'https://joelsvictor.me/'
+baseURL = 'https://joelsvictor.github.io/'
 languageCode = 'en-us'
 title = 'joelsvictor.me'
 theme = "hugo-ink"
