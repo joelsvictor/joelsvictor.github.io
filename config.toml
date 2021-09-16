@@ -1,15 +1,60 @@
-baseURL = 'https://joelsvictor.github.io/'
+baseURL = 'https://joelsvictor.me/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "contrast-hugo"
+title = 'joelsvictor.me'
+theme = "hugo-ink"
+paginate = 10
+
+copyright = "© Copyright notice"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
 
 [params]
-  minimal = false
-  description = "my blog"
+        featherIconsCDN = true
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
+        mode = "auto" # "dark" or "auto"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/joelsvictor"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/@joelsvic"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/joel-victor-823540105/"
+
+[taxonomies]
+   tag = "tags"
